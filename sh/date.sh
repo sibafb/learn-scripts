@@ -12,4 +12,9 @@ echo $DATETOKYO
 DATEYMD=`date '+%Y-%m-%d'`
 echo $DATEYMD"day!"
 
-echo "Hello" >> $DATETMD"file.txt"
+DATEYMDHM=`date '+%Y-%m-%d-%H-%M'`
+echo $DATEYMDHM"day!"
+
+echo "Hello" >> $DATEYMD"file.txt"
+
+echo "Hello2" >> $DATEYMDHM"file.txt"
