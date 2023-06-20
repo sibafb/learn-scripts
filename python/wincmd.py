@@ -4,4 +4,4 @@ import subprocess
 if platform.system() != "Windows":
     assert False
 
-subprocess.run("cmd.exe /c dir /A", cwd="./")
+subprocess.run("cmd.exe /c echo hello", cwd="./")
